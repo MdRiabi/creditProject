@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { DateFormControl } from 'app/date-form-control';
 
 
 @Component({
@@ -21,7 +22,7 @@ export class CredtFormComponent implements OnInit {
 
 
 
-    expiration: new FormControl('', [Validators.required,
+    expiration: new DateFormControl('', [Validators.required,
     Validators.pattern(/^(0[1-9]|1[0-2])\/\d{2}$/)]),
 
 
