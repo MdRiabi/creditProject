@@ -5,11 +5,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CredtFormComponent } from './credt-form/credt-form.component';
+import { InputComponent } from './input/input.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CredtFormComponent
+    CredtFormComponent,
+    InputComponent
   ],
   imports: [
     BrowserModule,
