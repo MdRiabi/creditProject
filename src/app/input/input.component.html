@@ -3,7 +3,7 @@
     <div class="control">
         <input class="input" [formControl]="control" [ngClass]="{'is-danger': showError() }" />
     </div>
-    <ng-container *ngIf="showError()   ">
+    <ng-container *ngIf="showError() ">
         <div class="help is-danger" *ngIf="control.errors.required ">
             value is required
         </div>

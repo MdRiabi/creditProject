@@ -42,4 +42,7 @@ export class CredtFormComponent implements OnInit {
     console.log("the form is submit")
   }
 
+  onRestClick(){
+    this.cardForm.reset();
+  }
 }
